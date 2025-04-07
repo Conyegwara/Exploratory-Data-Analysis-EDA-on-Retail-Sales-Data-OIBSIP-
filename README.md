@@ -1,7 +1,15 @@
 # Exploratory-Data-Analysis-EDA-on-Retail-Sales-Data-OIBSIP-
 
+## Table of Content
 
-   
+   - [Description](#description)
+   - [Executive Summary](#executive-summary)
+   - [Project Obejective](#project-obejective)
+   - [Data Overview](#data-overview)
+   - [Data Analysis and Key Insight](#data-analysis-and-key-insight)
+   - [Descriptive Statistics](#descriptive-statistics)
+   - [Actionable Recommendations](#actionable-recommendations)
+   - [Conclusion](#conclusion)
 
 ### Description
 In this project, I will work with a dataset containing information about retail sales. The goal is to Gain hands-on experience in data cleaning, develop skills in interpreting descriptive statistics and time series analysis and data visualization for effective communication of insights to uncover patterns, trends, and insights that can help the retail business make informed decisions.
@@ -85,7 +93,7 @@ This dataset is a snapshot of a fictional retail landscape, capturing essential 
 3. Dashboard and data visualization: Power bi and visualization features.
 4. Method used in this analysis was (descriptive statistics, trend analysis, time series analysis, customer & product analysis)
 
-### Data Analysis & Key Insight
+### Data Analysis and Key Insight
 
 The data was imported into power BI for further refinement, in-depth analysis and visualization to extract meaningful insights.
 - Power BI Visual Used: Card KPI
@@ -149,7 +157,7 @@ sales was analyzed using the product catogories over time.
 
 - Power BI Visual Used: Stacked Area Chart
 
-### Descriptive Statistics (summary of sales data)
+### Descriptive Statistics
 
 To understand the dataset better, the following key statistics were calculated:
 
