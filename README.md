@@ -49,7 +49,8 @@ This dataset is a snapshot of a fictional retail landscape, capturing essential 
 ######  Data source
 [Kaggle retail sales dataset ](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
 ###### Data used
-
+- <a href="https://github.com/Conyegwara/Exploratory-Data-Analysis-EDA-on-Retail-Sales-Data-OIBSIP-/blob/main/Retail%20sales%20dataset.xlsx">Dataset</a>
+  
 - Data cleaning: Excel worksheet was used to clean the data, remove duplicate transactions, handled missing values, standardized date formats.
 - Segmentation: sales analyzed by product categories, age group, sales trend over time, gender and Date
 - The date column was converted to proper datetime format.
