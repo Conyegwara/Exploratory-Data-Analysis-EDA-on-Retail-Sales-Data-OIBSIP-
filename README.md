@@ -1,4 +1,8 @@
 # Exploratory-Data-Analysis-EDA-on-Retail-Sales-Data-OIBSIP-
+
+
+   
+
 ### Description
 In this project, I will work with a dataset containing information about retail sales. The goal is to Gain hands-on experience in data cleaning, develop skills in interpreting descriptive statistics and time series analysis and data visualization for effective communication of insights to uncover patterns, trends, and insights that can help the retail business make informed decisions.
 
@@ -7,7 +11,8 @@ In this project, I will work with a dataset containing information about retail 
 
 ### Executive Summary
 This report analyzes retail sales trends, customer behavior, and product performance to provide actionable insights for optimizing marketing, inventory management, and customer engagement.
-#### Key Findings
+- **Key Findings**
+  
 - **Sales Trends**:
   - Peak sales in May 2023 ($53,150) suggest seasonal demand, while September 2023 ($23,620) saw the lowest sales—indicating a slow period or supply issues.
   - A major drop in January 2024 ($1,530) may indicate incomplete data or seasonal decline.
@@ -27,7 +32,8 @@ This report analyzes retail sales trends, customer behavior, and product perform
   - Boost sales during slow months (March, September) through targeted promotions and discounts.
   - Focus marketing on the 25-54 age group & develop senior-friendly offers.
   - Prioritize Electronics & Clothing while expanding premium Beauty products.
-#### Power BI Dashboard
+    
+##### Power BI Dashboard
 This is an interactive Power BI dashboard and it can be accessed using the following steps below:
    - Download the .pbix file from this repository.
    - Open the .pbix file in Power BI Desktop.
@@ -37,12 +43,14 @@ This is an interactive Power BI dashboard and it can be accessed using the follo
 
 ### Project Obejective
 The purpose of this report is to understand sales trends, customer purchasing behavior, and product performance as it is crucial for making informed business decisions. It also presents an in-depth analysis of the sales dataset covering key insights into sales trends, customer demographics, product sales performance, statistical summaries and provide recommendation for improving revenue, customer engagement and improved inventory efficiency.
+
 ##### Project key concepts
 - Time Series Analysis (Sales Trends Over Time)
 - Customer Demographics & Purchasing Behavior
 - Product Performance Analysis
 - Descriptive Statistics (Mean, Median, Mode, Standard Deviation, etc.)
 - Actionable Recommendations
+
 ##### Key Questions
 1. Calculate basic Descriptive statistics (mean, media, mode, standard deviation).
 2. How do monthly sales trends fluctuate throughout the year?
@@ -78,9 +86,9 @@ This dataset is a snapshot of a fictional retail landscape, capturing essential 
 4. Method used in this analysis was (descriptive statistics, trend analysis, time series analysis, customer & product analysis)
 
 ### Data Analysis & Key Insight
-The data was imported into power BI for further refinement, in-depth analysis and visualization to extract meaningful insights.
-- Power BI Visual Used:Card KPI
 
+The data was imported into power BI for further refinement, in-depth analysis and visualization to extract meaningful insights.
+- Power BI Visual Used: Card KPI
 KPI cards total was created using the following DAX measures below:
 - Total Customers (Total_Customers = $DISTINCTCOUNT('sales report'[Customer ID]$)
 - Total Quantity (Total_Quantity = $SUM('sales report'[Quantity]$)
@@ -141,8 +149,10 @@ sales was analyzed using the product catogories over time.
 
 - Power BI Visual Used: Stacked Area Chart
 
-### Descriptive Statistics(summary of sales data)
+### Descriptive Statistics (summary of sales data)
+
 To understand the dataset better, the following key statistics were calculated:
+
 - Mean:  (Average Sales per Transaction) (Mean_Total_Sales = $AVERAGE ('sales report'[Total Amount])$
 - Median (Middle Value of Sales) (Median_Total_Sales = $MEDIAN ('sales report'[Total Amount])$
 - Mode (Most Frequently Occurring Sales Value)( Mode_Total_Sales = VAR ModeValue SELECTCOLUMNS(TOPN(1, SUMMARIZE('sales report', 'sales report'[Total Amount], "Count", COUNT('sales report'[Total Amount])),   [Count], DESC  ), "MostCommon", 'sales report'[Total Amount]) RETURN MAXX(ModeValue, [MostCommon]$)
@@ -158,6 +168,7 @@ To understand the dataset better, the following key statistics were calculated:
 - Power BI Visual Used: Table visual
 
 ### Actionable Recommendations
+
 Based on the EDA, the following business recommendations are suggested:
 - Increase High-Value Customer Engagement
   - Insight: High-spending customers contribute significantly to revenue.
@@ -183,6 +194,7 @@ Based on the EDA, the following business recommendations are suggested:
   - Recommendation: Target ads & promotions based on customer segment insights.
 
 ### Conclusion 
+
 This analysis provided key insights into sales trends, customer demographics, and product performance. The findings highlight opportunities for targeted marketing, inventory planning, and customer engagement strategies. By implementing these recommendations, businesses can increase revenue, enhance customer engagement, and improve inventory efficiency, leading to sustained growth and profitability.
 
 
