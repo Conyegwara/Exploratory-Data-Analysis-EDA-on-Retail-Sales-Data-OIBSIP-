@@ -2,6 +2,9 @@
 ### Description
 In this project, I will work with a dataset containing information about retail sales. The goal is to Gain hands-on experience in data cleaning, develop skills in interpreting descriptive statistics and time series analysis and data visualization for effective communication of insights to uncover patterns, trends, and insights that can help the retail business make informed decisions.
 
+<img width="606" alt="retail sales dashboard" src="https://github.com/user-attachments/assets/fc824994-28cf-410b-a3c4-14c4818e8637" />
+
+
 ### Executive Summary
 This report analyzes retail sales trends, customer behavior, and product performance to provide actionable insights for optimizing marketing, inventory management, and customer engagement.
 #### Key Findings
@@ -24,8 +27,13 @@ This report analyzes retail sales trends, customer behavior, and product perform
   - Boost sales during slow months (March, September) through targeted promotions and discounts.
   - Focus marketing on the 25-54 age group & develop senior-friendly offers.
   - Prioritize Electronics & Clothing while expanding premium Beauty products.
--Dashboard interactive
-
+#### Power BI Dashboard
+This is an interactive Power BI dashboard and it can be accessed using the following steps below:
+   - Download the .pbix file from this repository.
+   - Open the .pbix file in Power BI Desktop.
+   - Explore the dashboards and interact with the data.
+   - Dashboard interactive
+      - <a href="https://github.com/Conyegwara/Exploratory-Data-Analysis-EDA-on-Retail-Sales-Data-OIBSIP-/blob/main/retail%20sales%20dashboard.pbix">Dashboard</a>
 
 ### Project Obejective
 The purpose of this report is to understand sales trends, customer purchasing behavior, and product performance as it is crucial for making informed business decisions. It also presents an in-depth analysis of the sales dataset covering key insights into sales trends, customer demographics, product sales performance, statistical summaries and provide recommendation for improving revenue, customer engagement and improved inventory efficiency.
