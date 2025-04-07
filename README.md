@@ -48,6 +48,7 @@ This dataset is a snapshot of a fictional retail landscape, capturing essential 
 #### Data source & cleaning
 ######  Data source
 [Kaggle retail sales dataset ](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
+###### Data used
 
 - Data cleaning: Excel worksheet was used to clean the data, remove duplicate transactions, handled missing values, standardized date formats.
 - Segmentation: sales analyzed by product categories, age group, sales trend over time, gender and Date
