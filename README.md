@@ -12,6 +12,7 @@
    - [Conclusion](#conclusion)
 
 ### Description
+---
 In this project, I will work with a dataset containing information about retail sales. The goal is to Gain hands-on experience in data cleaning, develop skills in interpreting descriptive statistics and time series analysis and data visualization for effective communication of insights to uncover patterns, trends, and insights that can help the retail business make informed decisions.
 
 <img width="606" alt="retail sales dashboard" src="https://github.com/user-attachments/assets/fc824994-28cf-410b-a3c4-14c4818e8637" />
@@ -204,6 +205,10 @@ Based on the EDA, the following business recommendations are suggested:
 ### Conclusion 
 
 This analysis provided key insights into sales trends, customer demographics, and product performance. The findings highlight opportunities for targeted marketing, inventory planning, and customer engagement strategies. By implementing these recommendations, businesses can increase revenue, enhance customer engagement, and improve inventory efficiency, leading to sustained growth and profitability.
+
+📉
+📈
+📊
 
 
 
